@@ -1,0 +1,155 @@
+html{
+    scroll-behavior: smooth;
+}
+
+
+body{
+    background-color: rgb(48, 52, 56);
+}
+
+.link{
+    margin: -42px 20px 0px 20px;
+    color: white;
+    text-decoration: none;
+    padding: -20px 0px 0px 0px;
+    font-size: 20px;
+}
+nav{
+  /* background-color: black;*/
+   height: 40px;
+}
+h1{
+    color: white;
+    display: inline-block;
+    margin: 9px 0px 0px 30px;
+}
+ul{
+    padding: -20px;
+    display: flex;
+    justify-content: end;
+}
+
+#la{
+    color: white;
+}
+#la:hover{
+    color: rgb(0, 0, 0);
+}
+
+a:hover{
+    color: rgb(255, 0, 0);
+}
+.img{
+    height: 400px;
+    width: 90%;
+    border: 2px solid black;
+}
+
+.img1{
+    margin: 30px 0px 0px 0px;
+    background-image: url('../BMW-website/img/front.avif');
+    object-fit: contain;
+    height: 550px;
+    width: 95%;
+    /* border: 2px solid black; */
+}
+.center{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+.btn{
+    width: 200px;
+    height: 35px;
+    
+}
+.btn1{
+    width: 230px;
+    height: 35px;
+    background-color:transparent;
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+    margin-top: 5px;
+    transition: 0.7s;
+    font-size: 17px;
+}
+.btn1:hover{
+    width: 230px;
+    height: 35px;
+    font: black;
+    background-color:rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(255, 255, 255);
+    margin-top: 5px;
+    transition: 0.7s;
+}
+.btn-center{
+    display: flex;
+    justify-content: center;
+    margin: 50px 0px 80px 0px;
+}
+.container{
+    margin: 10px;
+    height: 350px;
+    width: 95%;
+    border-radius: 5px;
+    background-color: rgb(226, 226, 226);
+}
+#main{
+    display: flex;
+    justify-content: center;
+}
+.box{
+    display: inline-block;
+    justify-content: center;
+    margin: 280px 0px 0px 120px;
+}
+
+.footer{
+   height: 300px;
+   display: flex;
+   color: white;
+   justify-content: center;
+}
+.box1{
+    object-fit: contain;
+    height: 200px;
+    width: 250px;
+   margin: 0px 30px 0px 30px;
+}
+#about{
+    margin: 10px;
+    background-color: white;
+    margin: 20px 0px 0px 0px;
+}
+.box-img{
+    border:2px solid black; 
+    width: 500px;
+    height: 250px;
+}
+.feed{
+    background-color: azure;
+    height: 430px;
+    width: 90%;
+    margin: 50px;
+    background-image: url('../BMW-website/img/test.avif');
+}
+
+.test{
+    height: 330px;
+    width: 550px;
+    margin: 10px 0px 0px 30px;
+    display: inline-block;
+    
+}
+
+.fx{
+    display: flex;
+}
+.book{
+    height: 35px;
+    width: 150px;
+    margin:10px 0px 0px 150px;
+    background-color: transparent;
+    border: 1px solid black;
+}

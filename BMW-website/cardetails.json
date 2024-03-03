@@ -1,0 +1,20 @@
+{
+    "cars":[
+        {"sedan":
+            {"car1":"bmw m2",
+             "car2":"bmw m3",
+             "car3":"bmw m4"
+            },
+        "suv":
+             {"car1":"bmw x5",
+              "car2":"bmw x3",
+              "car3":"bmw x2"
+             },
+        "hachback":
+             {"car1":"bmw h1",
+             "car2":"bmw h2",
+             "car3":"bmw h3"
+             }
+        }
+    ]
+}
